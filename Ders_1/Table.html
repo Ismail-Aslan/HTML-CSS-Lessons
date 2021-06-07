@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+<body>
+    <table border="1px" width="100%">
+        <!--tablo oluşturuyoruz-->
+        <thead align="center">
+            <!--başlıkları buraya yazıyoruz-->
+            <tr>
+                <th>İSİM</th>
+                <th>SOYİSİM</th>
+                <th>YAŞ</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!--içerikleri satır satır buraya yazıyoruz-->
+            <tr>
+                <td>Ali</td>
+                <td>Aktaş</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Veli</td>
+                <td>Aktaş</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td colspan="3">Önder</td>
+                <!--bu satırdaki sutunları birleştirdik-->
+                
+            </tr>
+            <tr>
+                <td>Veli</td>
+                <td rowspan="2">Aktaş</td>
+                <!--aynı sutundaki farklı satırları birleştirdik(alt satırları)-->
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Veli</td>
+                <td>35</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
