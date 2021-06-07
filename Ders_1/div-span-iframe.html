@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div-Span</title>
+    <!--
+        div ve span sayfa içerisinde bölümler oluşturmak için kullanılır.
+        div blok seviyesinde bir elementken 
+        span inline bir elementtir.
+
+        Bu şekilde oluşturulan bölümler sayesinde CSS ile sayfa görünümünü
+        düzenlerken id yada class kullanarak kolayca işlemlerimizi 
+        sadeleştiririz.
+    -->
+    <style>
+        
+        .div1 {
+            color: blue;
+        }
+        #span1 {
+            color: rgb(211, 12, 12);
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Ad saepe est, ipsam esse minus ratione,
+            iure dolore distinctio doloremque!Sit perferendis deserunt 
+            aliquam totam esse aspernatur officia enim?
+        </p>
+    </div>
+    <div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Ad saepe est, perspiciatis repudiandae ipsam esse minus ratione,
+            iure dolore <span id="span1">perspiciatis repudiandae</span> distinctio doloremque!Sit perferendis deserunt 
+            aliquam totam esse aspernatur officia enim?
+        </p>
+    </div>
+    <div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Ad saepe est, perspiciatis repudiandae ipsam esse minus ratione,
+            iure dolore distinctio doloremque!Sit perferendis deserunt 
+            aliquam totam esse aspernatur officia enim?
+        </p>
+    </div>
+
+    <iframe src="https://www.bbc.com/" frameborder="5" width="500px" height="100%"></iframe>
+    <!--
+        iframe bir sitenin içerisinde farklı bir site göstermek için kullanılır 
+    -->
+
+</body>
+</html>
