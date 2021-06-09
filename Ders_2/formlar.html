@@ -31,16 +31,44 @@ için kullanılır-->
         </form>
 
         <hr><hr>
-        <form action="result.html" method="GET">
+        <form action="result.html"  method="GET">
+            <!--Action bu formun serverda gideceği dosyayı belirtiyor
+             -->
             <div>
+                <!--
+                    text
+                -->
                 <label for="isim">ad:</label>
                 <input id="isim" type="text" name="isim"> <br>
-                <label for="sname">soy ad:</label>
+                <label for="sname">soyad:</label>
                 <input id="sname" type="text" name="soyisim">
             </div>
             <div>
+                <!--
+                    password
+                -->
                 <label for="şifre">parola:</label>
                 <input type="password" name="parola" id="şifre">
+            </div>
+            <br>
+            <div>
+                <!--
+                    radio button
+                -->
+                <label for="">Cinsiyet:</label>
+                <input type="radio" name="gender" id="gender1" value="male">
+                <label for="gender1">Erkek:</label>
+                <input type="radio" name="gender" id="gender2" value="female">
+                <label for="gender2">Kadın:</label>
+            
+            </div>
+            <br>
+            <div>
+                <!--
+                    checkbox
+                -->
+                <label >Favori tatlınızı belirtiniz</label>
+                <input type="checkbox" name="" id="">
             </div>
             <br><br><br><br><br>
             <input type="submit">
