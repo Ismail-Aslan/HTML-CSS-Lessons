@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formlar2</title>
+    <style>
+        #select2 {
+            border: 2px blue;
+            width: 2000px;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
     <form action="result.html">
@@ -14,9 +21,9 @@
                 multiple çoklu seçime izin verir
                 size aynı anda kaç tansin gözükeceğini belirliyor
             -->
-            <label for="select">Hangi tatlıyı seversin</label>
-            <select name="tatlı" id="select" multiple size="1">
-                <option value="seç">Seç...</option>
+            <label for="select2">Hangi tatlıyı seversin</label>
+            <select name="tatlı" id="select2" multiple size="3" required>
+                <option selected>Seç...</option>
                 <option value="Sütlaç">Sütlaç</option>
                 <option value="Keşkül">Keşkül</option>
                 <option value="Puding">Puding</option>
@@ -28,28 +35,42 @@
     
     
         </div>
-    
+    <hr>
         <div>
             <!--
-    
+                optgroup
             -->
-    
+            <label for="select">Hangi tatlıyı seversin</label>
+            <select name="tatlı" id="select" >
+                <optgroup label="stlü tatlılar">
+                    <option selected>Seç...</option>
+                    <option value="Sütlaç">Sütlaç</option>
+                    <option value="Keşkül">Keşkül</option>
+                    <option value="Puding">Puding</option>
+                </optgroup>
+                <optgroup label="şerbetli tatlılar">
+                    <option value="Baklava">Baklava</option>
+                    <option value="Kadayıf">Kadayıf</option>
+                </optgroup>
+                
+            </select>
     
     
         </div>
         <div>
             <!--
-    
+                textarea
             -->
-    
+                <label for="txt">Yorum:</label>
+                <textarea name="yrm" id="yorum" cols="30" rows="10"></textarea>
     
     
         </div>
         <div>
             <!--
-    
+                DATALİST
             -->
-    
+            da
     
     
         </div>
