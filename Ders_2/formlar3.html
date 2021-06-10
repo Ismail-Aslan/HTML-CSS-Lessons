@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formlar3</title>
+</head>
+<body>
+    <form action="result.html">
+        <div>
+            <label for="input-browser">Browsers:</label>
+            <input type="text" name="kullanılan browser" id="input-browser" list="browsers" >
+            <datalist id="browsers">
+                <option value="Safari">Safari</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Brave">Brave</option>
+                <option value="Firefox">Firefox</option>
+                
+            </datalist>
+
+        </div>
+        <hr>
+        <div>
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+                <label for="isim_1">İsim:</label>
+                <input type="text" name="isim_1" id="isim_1">
+                <label for="Soyisim_2">Soyisim:</label>
+                <input type="text" name="soyisim" id="Soyisim_2">
+            </fieldset>
+        </div>
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
