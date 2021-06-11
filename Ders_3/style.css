@@ -1,0 +1,14 @@
+header{
+    background: red;
+    
+    
+}
+header h1{
+    border-style: dashed;
+    border-radius: 100px;
+    width: max-content;
+    margin: auto;
+    padding: 0 15px;
+    border-color: white;
+    color: white;
+}
