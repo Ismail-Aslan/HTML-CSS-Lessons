@@ -1,0 +1,33 @@
+p::first-letter{
+    font-size: 3rem;
+}
+.p2::first-line{
+    color: coral;
+}
+
+ul li{
+    padding: 5px;
+    list-style-type: "😍"; /*windows+.*/
+    border-radius: 20px;
+    background-color: coral;
+    margin: 3px;
+    max-width: 300px;
+    text-align: center;
+}
+ul li:last-child{
+    color: red;
+}
+
+ul li:first-child{
+    color: yellow;
+}
+
+
+ul li::before{
+    content: "\2764             ";
+
+}
+
+ul li::after{
+    content: " :D";
+}
