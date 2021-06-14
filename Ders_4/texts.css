@@ -1,0 +1,56 @@
+*{
+    /* padding: 50px; */
+    box-sizing: border-box;
+    
+}
+
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid darkorange;
+    padding: 10px;
+    border-radius: 15px;
+    color: darkorange;
+}
+
+a:visited{
+    color: red;
+}
+a:hover{
+    background-color: gray;
+}
+
+#par1 {
+    color: green;
+    text-align:center;
+}
+#par2 {
+    color: red;
+    text-decoration: overline wavy red;
+}
+#par3 {
+    color: blue;
+    text-decoration: underline aqua;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+}
+#par4 {
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-family: "Arial",'Times', serif;/*Arial olmazsa times o da olmazsa serif*/
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px red;
+    
+}
+#par5 {
+    color: blueviolet;
+    text-align:justify;/*iki yana yasla*/
+    text-indent: 2rem;
+}
+
+#par6{
+    text-indent: 40px;
+    direction: rtl;/*right to left*/
+    font-size: 2rem;
+}
