@@ -1,0 +1,15 @@
+p{
+    color: red;
+}
+
+div p{/*divin içindeki p*/
+    color: blue
+}
+
+.container div p{/*container classının içndeki divin içindeki p*/
+    color: violet;
+}
+
+p + div{/*p'den sonraki div*/
+    color: yellow;
+}
