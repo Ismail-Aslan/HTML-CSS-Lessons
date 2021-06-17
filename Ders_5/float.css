@@ -1,0 +1,23 @@
+/*Eksik kaldı tamamlanacak*/
+
+div {
+    border: 3px solid red;
+}
+img{
+    float: right;/*default değeri none
+                    absolute elementler float özelliğini gözardı eder*/
+    
+}
+
+.clear{
+    overflow: auto;
+}
+.clear2{
+    clear: left;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
