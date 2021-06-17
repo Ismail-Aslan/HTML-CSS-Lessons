@@ -1,0 +1,44 @@
+/*height yoksa çalışmaz*/
+h1 {
+    text-align: center;
+}
+
+.visible {
+    background-color: brown;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: visible;
+}
+.hidden {
+    background-color: greenyellow;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.scroll {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: scroll;/*ihtiyaç olsa da olmasada hem x hem y için scroll bar verir*/
+}
+
+.auto {
+    background-color: darkseagreen;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: auto;/*ihtiyaç olan yere scroll bar verir*/
+}
+
+.overflow_x_y {
+    background-color: goldenrod;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    overflow-x: hidden; /*x ekseninde scroll u gizledi(default olarak zaten gizli yazmasak da olur) */
+    overflow-y: scroll;/*y ekseninde scroll u aktif etti*/
+}
