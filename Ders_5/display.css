@@ -1,0 +1,47 @@
+.head1 {
+    color:purple;
+}
+.head2 {
+    color:royalblue;
+}
+.head3 {
+    color:seagreen;
+}
+
+span.a{
+    display: inline; /*genişlik ve yükseklik girilemez */
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    background-color: purple;
+    color: white;
+}
+span.b{
+    display: inline-block;/*genişlik ve yükseklik girilebilir ancak halen inline */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellow;
+    background-color: royalblue;
+}
+span.c{
+    display: block;/*genişlik ve yükseklik girilebilir ve block elementine dönüştürür */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid orange;
+    background-color: seagreen;
+}
+
+span.d {
+    display: none;/*gösterip göstermeme olayını ayarlıyor 
+                    visibility : hidden dan farkı herhangi bir yer
+                    de ayırmamasıdır. visibility:hidden dersek sadece 
+                    görünmez yapar o bölge boş olarak buna ayrılır.*/
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid blue;
+    background-color: green;
+}
