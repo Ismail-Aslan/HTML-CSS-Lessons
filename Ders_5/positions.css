@@ -1,0 +1,41 @@
+.static {
+    border: 3px solid blue;
+    position: static;/*default değerdir*/
+}
+
+.relative{
+    border: 3px dotted red;
+    position: relative;/**/
+    top: 20px;
+    left: 20px;
+}
+
+.fixed {
+    border: 2px double yellowgreen;
+    position: fixed;/*ekranın bir yerinde sabit kalır*/
+    top:450px;
+    left: 30px;
+}
+
+.absolute {
+    border: 2px dashed gray;
+    position: absolute;/*bir üst parent a göre ayarlanır parent yoksa body e göre yerleşir*/
+    top: 50px;
+    right: 0px;
+    width: 120px;
+    height: 70px;
+}
+
+.relative2{
+    border: 2px solid black;
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.sticky{
+    border: 2px solid rosybrown;
+    position: sticky;/*parent ekrandan çıkana kadar ekranda kalır. Parent bittkten sonra ekrandan çıkar*/
+    top:10px;
+    padding: 7px;
+}
