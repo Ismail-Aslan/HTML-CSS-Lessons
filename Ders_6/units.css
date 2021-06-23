@@ -1,4 +1,9 @@
-/* em-->font size of the element */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* em-->font size of the parent element */
 .box1 {
     border: 4px solid black;
     font-size: 16px;
@@ -14,5 +19,32 @@
     margin: 16px;
 }
 
-/* rem--> */
+/* rem--> font size of th root element*/
+.things {/*box1 de bulunan box2 de bulunandan daha küçük olur*/
+    width: 1em;
+    height: 1em;
+    border: 2px solid blue;
+}
 
+
+html {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 16px;
+}
+
+p {
+    font-size: 2rem;/*root elementte(html) font size belirlediğimiz için burada font-size_root x 2 oldu*/
+}
+
+.parent {
+    font-size: 32px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid green;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+}
