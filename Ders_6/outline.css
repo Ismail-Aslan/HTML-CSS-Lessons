@@ -1,0 +1,60 @@
+.outline {
+    border: 3px solid violet;
+    padding: 15px;
+    text-align: center;
+    outline: 1px solid blue;
+}
+*{
+    background-color: deepskyblue;
+}
+p{
+    outline-color: bisque;
+    outline-width: 8px ;/*
+    
+    thin =>1px
+    medium =>3px
+    thick =>5px
+
+    */
+    border: 10px solid red;
+    text-align: center;
+    margin: 50px;
+    padding: 15px;
+}
+
+p.dotted {
+    outline-style: dotted;
+}
+.dashed {
+    outline-style: dashed;
+}
+
+.double {
+    outline-style: double;
+}
+
+.groove {
+    outline-style: groove;
+}
+
+
+.ridge {
+    outline-style: ridge;
+}
+
+.inset {
+    outline-style: inset;
+}
+
+.outset {
+    outline-style: outset;
+}
+
+.offset {
+    outline-style: solid;
+    outline-offset: 10px;
+}
+
+.shorthand {
+    outline: 8px solid blue ;
+}
