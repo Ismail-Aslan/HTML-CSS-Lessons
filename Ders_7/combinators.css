@@ -1,0 +1,22 @@
+/*descending selector*/
+div p {
+    background-color: royalblue;
+    color: white;
+}
+
+/*child selector*/
+div > p {
+    color: tomato;
+}
+
+/*Adj. sibling selector*//*divden sonraki ilk p*/
+
+div + p {
+    border: 5px solid greenyellow;
+}
+
+/*general sibling selector*//*divden sonra gelen bütün p ler*/
+
+div ~ p {
+    background-color: hotpink;
+}
