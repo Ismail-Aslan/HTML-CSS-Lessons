@@ -2,23 +2,57 @@
     margin: 0;
     padding: 0;
 }
-.flex__container {
+.flex-container {
     border: 6px solid yellowgreen;
+    height: 400px;
 
     display: flex;
-    /* display: inline-flex; */
+    /* display: inline-flex; */ /*Content kadar yer kaplar*/
 
-
+/******************************************/
     /*flex direction*/
+
     /* flex-direction: row; *//*default*/
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
 
-
+/******************************************/
     /*flex wrap*/
 
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; default */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+ 
+/******************************************/
+
+    /* flex-flow ---> shorthand for flex-direction and flex-wrap */
+
+/******************************************/
+
+    /* justify-content--->flex-direction row ise x, column ise y eksenine gore itemları ayarlamak için kullanılır */
+
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+/******************************************/
+/* align-items--->flex-direction row ise y, column ise x eksenine gore itemları ayarlamak için kullanılır */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline;*/ /* textin alt hizasına göre itemları hizalar */
+
+/******************************************/
+
+/*align-content--->birden fazla satır varsa  satırları ayarlar */
+    align-content: flex-end;
+
 }
 
 .items {
@@ -29,4 +63,8 @@
     margin: 3px;
     text-align: center;
     width: 100px;
+}
+
+.item4 {
+    font-size: 3rem;
 }
