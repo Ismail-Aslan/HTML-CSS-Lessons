@@ -53,6 +53,21 @@
 /*align-content--->birden fazla satır varsa  satırları ayarlar */
     /* align-content: flex-end; */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 .items {
@@ -65,6 +80,39 @@
     width: 100px;
 }
 
+
+
+
+
+
+
+
+/******************************************/
+
+    /* order---> itemları sıralamak için kullanılır küçük olan başa yüksek olan sona gider*/
+
 .item4 {
     font-size: 3rem;
+    order:-1;
+}
+.item1 {
+    order: 0;/*default*/
+}
+.item2 {
+    order: -2;
+}
+
+
+/******************************************/
+
+    /* flex-grow---> 1 default değeri dir buna göre itemları büyütür ve boşluğu doldurur */
+    /* flex-shrink---> 1 default değeri dir buna göre itemları küçültür */
+
+.item1{
+    flex-grow: 3;
+    align-self: flex-start;
+}
+.item2 {
+    flex-shrink: 6;
+    align-self: center;
 }
