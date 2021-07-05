@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex__container {
+    border: 6px solid yellowgreen;
+
+    display: flex;
+    /* display: inline-flex; */
+
+
+    /*flex direction*/
+    /* flex-direction: row; *//*default*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+
+    /*flex wrap*/
+
+    flex-wrap: nowrap;
+}
+
+.items {
+    background-color: indianred;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    width: 100px;
+}
