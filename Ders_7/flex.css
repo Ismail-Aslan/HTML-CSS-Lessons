@@ -21,7 +21,7 @@
     /*flex wrap*/
 
     /* flex-wrap: nowrap; default */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
  
 /******************************************/
@@ -51,7 +51,7 @@
 /******************************************/
 
 /*align-content--->birden fazla satır varsa  satırları ayarlar */
-    align-content: flex-end;
+    /* align-content: flex-end; */
 
 }
 
