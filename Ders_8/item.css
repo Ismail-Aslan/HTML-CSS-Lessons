@@ -1,0 +1,54 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr) 3fr 100px 10%;
+    /*
+    min-content --> en küçük elemana göre ayarlar
+
+    max-content --> tek satır yapmaya çalışır
+
+    minmax(80px,240px) --> min ve max değerleri verilir
+
+    auto --> diğer ölçüler varsa otomatik ayarlar
+
+    fr --> birim olarak veriyoruz ör: 2fr 3fr = sayfayı beşe böl 1.sutun 2 birim 2. sutun 3 birim olsun
+
+    repeat(tekrar-sayısı , boyutu) --> tekrarları kolayca yazarsın
+    */
+    grid-template-rows: 100px 400px 100px;
+}
+
+.content {
+    background-color: greenyellow;
+    border: 1px solid gray;
+}
+
+/* ITEM TAMIMLAMALARI */
+
+.content--1 { 
+    grid-column-start: 1;
+    grid-column-end: 5;/*grid-line 5 olduğu için 4 hücre alıyor*/
+    background-color: red;
+}
+
+.content--2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    background-color: goldenrod;
+}
+
+.content--3 {
+    grid-column: 1/4;
+    grid-row: 2/4;
+    background-color: hotpink;
+}
+
+.content--4 {
+    grid-row: 2/span 3 ;
+    background-color: indigo;
+}
+
+.content--6 {
+    grid-area:  3/4/ span 2 / span 2/*satır başlangıç bitiş sütun bşlangıç bitiş*/;
+    background-color: lime;
+}

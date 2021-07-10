@@ -1,0 +1,34 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar main section"
+    "footer footer footer";
+
+    /* grid-auto-flow: column; */
+    /* justify-content: center; *//*fr yerine px kullansak sayfayı ortalar ***** flexte kullanılan özellikler burada da geçerli****** */
+}
+.content {
+    background-color: indianred;
+    border: 1px solid black;
+}
+
+
+
+.content--1 {
+    grid-area: header;
+}
+.content--7 {
+    grid-area: sidebar;
+}
+.content--2 {
+    grid-area: main;
+}
+.content--3 {
+    grid-area: section;
+}
+.content--4 {
+    grid-area: footer;
+}

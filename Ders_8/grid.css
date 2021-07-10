@@ -1,0 +1,13 @@
+
+
+#container {
+    display:grid; /*1.adım*/
+    grid-template-columns: 100px 300px 100px ;  /*2.adım sutun yada satırları oluştur*/
+    grid-template-rows: 100px 500px 100px; /*2.adım sutun yada satırları oluştur*/
+    grid-gap: 30px 5px ;
+}
+
+.content {
+    background-color: aqua;
+    border: 2px solid black;
+}
