@@ -49,6 +49,6 @@
 }
 
 .content--6 {
-    grid-area:  3/4/ span 2 / span 2/*satır başlangıç bitiş sütun bşlangıç bitiş*/;
+    grid-area:  3/4/ span 2 / span 2/*satır başlangıç/sütun başlangıç/span satır/span sutun*/;
     background-color: lime;
 }
